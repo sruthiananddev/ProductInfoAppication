@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+
+        android:id="@id/Homefragment"
+android:icon="@drawable/homenav"
+        android:title="" />
+
+    <item
+
+        android:icon="@drawable/signals"
+        android:title="" />
+
+    <item
+
+        android:icon="@drawable/person"
+        android:title="" />
+    <item
+        android:icon="@drawable/settings"
+
+        android:title="" />
+</menu>
