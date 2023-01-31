@@ -79,21 +79,6 @@ class HomeFragment : Fragment(), HomeAdapter.ProductsHomeItemItemListener {
         }
 
 
-//        binding.logout.setOnClickListener {
-//            Toast.makeText(requireContext(),"clickkkk", Toast.LENGTH_SHORT)
-//                .show()
-//
-//
-//            // findNavController().navigate(R.id.action_mainFragment_to_loginFragment2)
-//            // requireActivity().finish()
-//            //binding.root
-//            // findNavController().previousBackStackEntry?.destination?.id
-////            Navigation.findNavController(view).navigate(R.id.action_mainFragment_to_loginFragment2);
-////            if (!findNavController().popBackStack()) {
-////                // Call finish() on your Activity
-////                findNavController().popBackStack()
-////            }
-//        }
         bindObservers()
     }
 

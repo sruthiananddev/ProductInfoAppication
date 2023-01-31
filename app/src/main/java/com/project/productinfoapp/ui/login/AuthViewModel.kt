@@ -40,9 +40,9 @@ class AuthViewModel @Inject constructor(private val userRepository: UserReposito
             result = Pair(false, "Please provide the credentials")
         }
 
-        else if(!TextUtils.isEmpty(password) && password.length <= 5){
-            result = Pair(false, "Password length should be greater than 5")
-        }
+//        else if(!TextUtils.isEmpty(password) && password.length <= 5){
+//            result = Pair(false, "Password length should be greater than 5")
+//        }
         return result
     }
 
